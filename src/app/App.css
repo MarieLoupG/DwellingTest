@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@700&display=swap');
+
+*{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.logoLink{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-top: 22px;
+}
+
+.logo{
+  width: 25.23px;
+  height: 23.51px;
+}
+
+.App {
+  display: grid;
+  width: 345px;
+  margin: auto;
+
+  margin-top: 19px;
+  margin-bottom: 15px;
+}
+
+
+.App > div:first-of-type {
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-radius: 10px 10px 0 0;
+}
+
+.App > div:last-of-type {
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-radius: 0 0 10px 10px;
+}
+
+
+.header{
+  height: 114.87px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #EFE6DD;
+
+}
+
+.titleContainer{
+  display: grid;
+  grid-template-columns: 90% 8%;
+  grid-column-gap: 5px;
+}
+
+button{
+  cursor: pointer;
+  margin-top: 15px;
+  height: 50px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: white;
+  background: #000000;
+  border-radius: 10px;
+}
+
+
+
+
