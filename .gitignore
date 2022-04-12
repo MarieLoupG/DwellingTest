@@ -4,5 +4,6 @@ src/app/.DS_Store
 src/.DS_Store
 public/index.html
 .DS_Store
+.vscode
 node_modules/
 cypress/fixtures/example.json
